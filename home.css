@@ -18,7 +18,7 @@ html {
 
 header {
     background: rgba(255, 255, 255, 0.12);
-  
+
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     padding: 10px 20px;
     display: flex;
@@ -30,7 +30,7 @@ header {
     font-size: 1.6rem;
     font-weight: 700;
     letter-spacing: 1px;
- 
+
 }
 
 
@@ -72,9 +72,11 @@ h5 {
     padding: 2px;
 
 }
+
 #i1 {
     color: orange;
 }
+
 .testHover:hover {
     color: cyan;
 }
@@ -85,4 +87,22 @@ h5 {
 
 .test-l-child:last-child {
     color: rgb(142, 240, 142);
+}
+
+div ul li a img {
+    width: 20px;
+    height: 20px;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+div ul {
+    width: 90%;
 }
